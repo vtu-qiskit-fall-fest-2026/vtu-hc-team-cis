@@ -27,6 +27,7 @@
 | **Repository** | [vtu-hc-team-cis](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-team-cis.git) &bull; [QMedLab-Project](https://github.com/AbdulRazak5764/QMedLab-Project.git) |
 | **Live Deployment** | [**🌐 https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/**](https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/) |
 | **Demo Video Link** | [**🎥 https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8**](https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8) |
+| **PPT-lINK** | [**🎥 https://docs.google.com/presentation/d/1AjEWD9oWEKGUEDQrW3-PnTCP-W5uXzTC/edit?usp=sharing&ouid=108178010384566064897&rtpof=true&sd=true**](https://docs.google.com/presentation/d/1AjEWD9oWEKGUEDQrW3-PnTCP-W5uXzTC/edit?usp=sharing&ouid=108178010384566064897&rtpof=true&sd=true) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | **VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026** |
 | **Project Title** | **⚛️ Q-MedLab: Interactive Quantum-Powered Virtual Medical Laboratory for Healthcare Simulation & Drug Discovery** |
