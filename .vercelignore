@@ -1,0 +1,9 @@
+node_modules
+docs
+dist
+.git
+.github
+*.png
+*.pdf
+generate_*.js
+generate_*.cjs

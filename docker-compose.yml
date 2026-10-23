@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # 1. Frontend React/Vite Application + Nginx Reverse Proxy
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: qmedlab_frontend
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - qmedlab_network
+
+  # 2. Python FastAPI Quantum & AI Simulation Engine
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: qmedlab_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - VITE_SUPABASE_URL=${VITE_SUPABASE_URL:-https://ynqcxlnkoixwibpewlws.supabase.co}
+      - VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}
+      - REDIS_URL=redis://redis:6379/0
+      - IBM_QUANTUM_TOKEN=${IBM_QUANTUM_TOKEN}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CLAUDE_API_KEY=${CLAUDE_API_KEY}
+    depends_on:
+      - redis
+    restart: always
+    networks:
+      - qmedlab_network
+
+  # 3. Redis In-Memory Caching for Molecular PDB & PubChem Datasets
+  redis:
+    image: redis:7-alpine
+    container_name: qmedlab_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_cache_data:/data
+    restart: always
+    networks:
+      - qmedlab_network
+
+volumes:
+  redis_cache_data:
+    driver: local
+
+networks:
+  qmedlab_network:
+    driver: bridge
