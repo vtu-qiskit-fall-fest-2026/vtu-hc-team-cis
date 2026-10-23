@@ -5,6 +5,8 @@
 **VTU-QFF-HC-0118** &nbsp;|&nbsp; Tier: **Both**
 
 [![VTU-QFF Hackathon](https://img.shields.io/badge/VTU--QFF-Hackathon_2026-blueviolet?style=for-the-badge&logo=qiskit&logoColor=white)](https://github.com/vtu-qiskit-fall-fest-2026)
+[![Live Demo](https://img.shields.io/badge/Live_Deployment-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8)
 [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A51.0-6929C4?style=for-the-badge&logo=ibm&logoColor=white)](https://docs.quantum.ibm.com/)
 [![React 18](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -23,6 +25,8 @@
 | **Team ID** | **VTU-QFF-HC-0118** |
 | **Tier** | **Both** (Quantum Algorithms + Healthcare Simulation Software) |
 | **Repository** | [vtu-hc-team-cis](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-team-cis.git) &bull; [QMedLab-Project](https://github.com/AbdulRazak5764/QMedLab-Project.git) |
+| **Live Deployment** | [**🌐 https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/**](https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/) |
+| **Demo Video Link** | [**🎥 https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8**](https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | **VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026** |
 | **Project Title** | **⚛️ Q-MedLab: Interactive Quantum-Powered Virtual Medical Laboratory for Healthcare Simulation & Drug Discovery** |
@@ -34,12 +38,13 @@
 ## 📌 Table of Contents
 
 - [👥 Team Members (GitHub IDs)](#-team-members-github-ids)
+- [🌐 Live Deployment & Demo Video](#-live-deployment--demo-video)
 - [❓ Problem Statement](#-problem-statement)
 - [💡 Proposed Solution](#-proposed-solution)
 - [📸 Visual Showcase & Platform Screenshots](#-visual-showcase--platform-screenshots)
 - [🧩 Approach & Architecture](#-approach--architecture)
 - [🔬 Core Quantum Medical Modules](#-core-quantum-medical-modules)
-- [🛠️ Tech Stack](#-tech-stack)
+- [🛠️ Tech Stack](#️-tech-stack)
 - [🎥 Video Lessons & Algorithm Demonstrations](#-video-lessons--algorithm-demonstrations)
 - [📁 Project Structure](#-project-structure)
 - [🚀 How to Run](#-how-to-run)
@@ -60,22 +65,27 @@
 | 2 | **Sirikonda Srija** | [@Sreejasirikonda22](https://github.com/Sreejasirikonda22) | **Quantum ML & Research Framework** — QSVM genomic resistance classification, XAI attribution models, disease cataloging, and clinical telemetry workflows. |
 | 3 | **Sindhuja Lollati** | [@LollatiSindhuja](https://github.com/LollatiSindhuja) | **Quantum Algorithms & Simulation Core** — Grover's search amplitude amplification for multi-symptom triage, QCNN parameterized circuits, and state tomography verification. |
 
-![Project Creators & Team](./docs/assets/project-team-creators.png)
+---
+
+## 🌐 Live Deployment & Demo Video
+
+- **🚀 Live Application URL:** [https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/](https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/)
+- **🎥 Official Video Demonstration:** [https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8](https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8)
+- **📦 Official Hackathon Repository:** [https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-team-cis](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-team-cis)
 
 ---
 
 ## ❓ Problem Statement
 
-<!-- State the problem you are solving -->
-
-**Problem:** 
+**Problem:**
 Modern healthcare diagnostic systems and pharmacological drug discovery pipelines face exponential computational barriers when processing high-dimensional biological combinatorial spaces. Classical supercomputers struggle with:
+
 1. **Combinatorial explosion in molecular docking:** Computing ground-state electron binding free energies ($\Delta G$) for macro-molecular protein-ligand interactions scales exponentially ($O(2^N)$), demanding weeks of compute time.
 2. **Multi-symptom clinical triage bottleneck:** Unstructured symptom cross-correlation across hundreds of rare and overlapping infectious pathogens requires linear search operations ($O(N)$), leading to diagnostic delays in critical care.
 3. **Genomic antimicrobial resistance (AMR) tracking:** High-dimensional bacterial genomic feature vectors are computationally intractable for classical hyperplane separation, obscuring multi-drug resistant mutations.
 4. **Microscopic imaging feature loss:** Classical image downsampling compromises subtle low-contrast tumor boundaries in high-resolution MRI and CT scans.
 
-**Why it matters:** 
+**Why it matters:**
 Antimicrobial resistance causes over 1.27 million deaths annually, and developing a single FDA-approved drug currently takes 10–15 years costing upwards of \$2.6 billion. Bringing quantum algorithms (**VQE, Grover's Search, QSVM, and QCNN**) into an interactive, accessible clinical laboratory enables quadratic and exponential speedups, accelerating drug discovery, diagnostic accuracy, and student education.
 
 **Track / Category:** **Both** &bull; Quantum Computing, Healthcare Simulation & Drug Discovery.
@@ -84,16 +94,15 @@ Antimicrobial resistance causes over 1.27 million deaths annually, and developin
 
 ## 💡 Proposed Solution
 
-<!-- Describe your solution -->
+**Solution:**
+**Q-MedLab** is an interactive, web-based hybrid quantum-classical virtual medical laboratory. Built with **IBM Qiskit $\ge$ 1.0, FastAPI, React 18, and Three.js**, it bridges NISQ-era quantum hardware simulation with real-world medical workflows across 4 dedicated clinical user roles (**Researcher, Student, MD Clinician, and Admin**).
 
-**Solution:** 
-**Q-MedLab** is the world's first interactive, web-based hybrid quantum-classical virtual medical laboratory. Built with **IBM Qiskit $\ge$ 1.0, FastAPI, React 18, and Three.js**, it bridges NISQ-era quantum hardware simulation with real-world medical workflows across 4 dedicated clinical user roles (**Researcher, Student, MD Clinician, and Admin**).
-
-**Key idea:** 
+**Key idea:**
 Direct mapping of complex biological Hamiltonians and clinical diagnosis catalogs into parameterized quantum circuits (PQC), quantum kernel feature spaces, and amplitude-amplified oracle queries with real-time 3D statevector visualization.
 
-**Why this works:** 
+**Why this works:**
 By leveraging Qiskit Aer simulators with realistic NISQ noise models and hybrid variational loops (COBYLA/SPSA), Q-MedLab demonstrates verifiable quantum advantage:
+
 - Quadratic speedup ($O(\sqrt{N})$) in multi-symptom WHO ICD-11 disease matching.
 - Precise ground-state molecular binding affinity ($\Delta G$) calculation via UCCSD/RealAmplitudes VQE.
 - 91% predictive accuracy in bacterial resistance gene detection using quantum kernel estimation (vs 74% classical SVM).
@@ -104,38 +113,34 @@ By leveraging Qiskit Aer simulators with realistic NISQ noise models and hybrid 
 ## 📸 Visual Showcase & Platform Screenshots
 
 ### 🌟 1. Interactive 3D Bloch Simulator & Landing Hero
+
 ![Q-MedLab Hero Section](./docs/assets/hero-bloch-simulator.png)
+
 *Interactive real-time Three.js 3D Bloch Sphere simulator enabling qubit rotation ($\theta, \phi, \lambda$), Pauli gate visualization, and statevector tomography.*
 
 ---
 
 ### 🔬 2. Four Core Quantum Medical Modules
+
 ![Four Core Quantum Medical Modules](./docs/assets/four-quantum-modules.png)
+
 *Comprehensive clinical suite covering Grover Diagnosis, VQE Molecular Docking, QSVM Antimicrobial Resistance, and QCNN High-Dimensional Imaging.*
 
 ---
 
 ### 👥 3. Role-Specific Research & Clinical Workspaces
+
 ![Role-Specific Workspaces](./docs/assets/role-workspaces.png)
+
 *Dynamic multi-tenant architecture tailoring visual themes and workflows for Quantum Researchers, Medical Students, Chief Clinicians, and System Admins.*
 
 ---
 
 ### 💻 4. Lead Quantum Researcher Workbench
+
 ![Lead Quantum Researcher Workbench](./docs/assets/lead-researcher-workbench.png)
+
 *Full execution bench: circuit depth control (1–4), noise model toggles, shot counters (up to 8,192 shots), live job queue telemetry, and IEEE LaTeX publication draft export.*
-
----
-
-### 📊 5. Quantum Algorithm Analytics & Telemetry
-![Quantum Algorithm Telemetry](./docs/assets/quantum_modules.png)
-*Real-time quantum circuit statevector evolution, energy convergence graphs, and quantum kernel similarity heatmaps.*
-
----
-
-### 🩺 6. Clinical Researcher Dashboard View
-![Clinical Researcher Dashboard](./docs/assets/researcher_dashboard.png)
-*End-to-end experiment logging, PubChem 3D molecular structures, and XAI SHAP attribution diagnostic reports.*
 
 ---
 
@@ -143,28 +148,28 @@ By leveraging Qiskit Aer simulators with realistic NISQ noise models and hybrid 
 
 ```mermaid
 flowchart TD
-    subgraph Client ["Client Layer (React 18 + Vite + Three.js)"]
-        UI[User Interface & Role Portals]
-        Canvas3D[Three.js 3D Bloch Sphere & Molecule Canvas]
-        StateEngine[Quantum State Vector & Telemetry Store]
+    subgraph Client["Client Layer (React 18 + Vite + Three.js)"]
+        UI["User Interface and Role Portals"]
+        Canvas3D["Three.js 3D Bloch Sphere and Molecule Canvas"]
+        StateEngine["Quantum State Vector and Telemetry Store"]
     end
 
-    subgraph Gateway ["API Gateway & Security"]
-        Nginx[Nginx Reverse Proxy & SSL]
-        Auth[Supabase Auth & Row-Level Security]
+    subgraph Gateway["API Gateway and Security"]
+        Nginx["Nginx Reverse Proxy and SSL"]
+        Auth["Supabase Auth and Row-Level Security"]
     end
 
-    subgraph Backend ["Computational Engine (FastAPI + Python 3.11)"]
-        FastAPI[FastAPI REST API Server]
-        JobQueue[Quantum Job Queue & NISQ Telemetry]
-        AISynthesizer[LLM Clinical AI Synthesizer]
+    subgraph Backend["Computational Engine (FastAPI + Python 3.11)"]
+        FastAPI["FastAPI REST API Server"]
+        JobQueue["Quantum Job Queue and NISQ Telemetry"]
+        AISynthesizer["LLM Clinical AI Synthesizer"]
     end
 
-    subgraph QuantumCore ["Quantum Execution Core (IBM Qiskit 1.0+)"]
-        QiskitEngine[Qiskit Circuit Construction Engine]
-        AerSim[AerSimulator - Statevector & Noise Models]
-        Algorithms[Grover | VQE | QSVM | QCNN]
-        HardwareBridge[IBM Quantum Cloud Hardware Bridge]
+    subgraph QuantumCore["Quantum Execution Core (IBM Qiskit 1.0+)"]
+        QiskitEngine["Qiskit Circuit Construction Engine"]
+        AerSim["AerSimulator - Statevector and Noise Models"]
+        Algorithms["Quantum Algorithms: Grover, VQE, QSVM, QCNN"]
+        HardwareBridge["IBM Quantum Cloud Hardware Bridge"]
     end
 
     UI --> Nginx
@@ -181,6 +186,7 @@ flowchart TD
 ```
 
 ### End-to-End Pipeline
+
 1. **Input Data:** Patient symptoms (WHO ICD-11), PubChem CID / SMILES molecular structures, bacterial genomic markers, or DICOM/PNG medical scans.
 2. **Preprocessing & Encoding:** Amplitude encoding for images, Pauli string Hamiltonian mapping ($Z \otimes Z, X \otimes X$) for molecules, and boolean oracle state marking for symptoms.
 3. **Quantum Core:**
@@ -200,7 +206,7 @@ flowchart TD
 | **Module 1: Clinical Diagnosis** | **Grover's Search + Amplitude Amplification** | 84 Symptoms & 200+ WHO ICD-11 Diseases | Quadratic acceleration in identifying multi-symptom rare diseases | **$O(\sqrt{N})$** queries vs $O(N)$ classical |
 | **Module 2: Molecular Simulation** | **Hybrid VQE with UCCSD / RealAmplitudes** | 30 Drugs (Remdesivir, Sildenafil, Imatinib) | Accurate ground-state binding energy ($\Delta G$) for targeted drug discovery | **Polynomial $O(N^4)$** vs Exponential $O(2^N)$ |
 | **Module 3: Antimicrobial Resistance** | **QSVM Quantum Kernel Estimation** | 22 Pathogens & Antibiotic Resistance Genes | Genomic AMR prediction (blaTEM, mecA, vanA) | **91% accuracy** vs 74% classical SVM |
-| **Module 4: High-Dim Imaging** | **QCNN with Parameterized Circuits** | $2^{16} = 65,536$ Quantum Features (MRI/CT) | Low-contrast tumor boundary detection & feature compression | **Exponential spatial state representation** |
+| **Module 4: High-Dim Imaging** | **QCNN with Parameterized Circuits** | $2^{16} = 65{,}536$ Quantum Features (MRI/CT) | Low-contrast tumor boundary detection & feature compression | **Exponential spatial state representation** |
 
 ---
 
@@ -318,6 +324,7 @@ vtu-hc-team-cis/
 ## 🚀 How to Run
 
 ### Prerequisites
+
 - **Node.js**: v18.0 or newer
 - **Python**: 3.11 or newer
 - **Git**: Installed and configured
@@ -369,12 +376,15 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# 4. Start the FastAPI server
-python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+# 4. Start the FastAPI server (run from inside the backend directory)
+python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 - REST API Base URL: **[http://localhost:8000](http://localhost:8000)**
 - Interactive Swagger / OpenAPI Documentation: **[http://localhost:8000/docs](http://localhost:8000/docs)**
+
+> **Tip:** If you prefer to run the backend from the project root instead of `backend/`, use:
+> `python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload`
 
 ---
 
@@ -413,6 +423,7 @@ git push -u origin feature/quantum-enhancement
 ```
 
 ### Commit Message Conventions
+
 - `feat:` New quantum algorithm or UI feature
 - `fix:` Bug fix in circuit compilation or simulation
 - `docs:` Documentation, diagram, or README updates
@@ -433,6 +444,7 @@ git push -u origin feature/quantum-enhancement
 - [x] High-resolution platform showcase screenshots and diagrams included
 - [x] Video tutorial links and mathematical breakdowns embedded
 - [x] Short project summary prepared for hackathon portal submission
+- [x] Live Vercel deployment link and demo video link verified and working
 
 ---
 
@@ -440,6 +452,8 @@ git push -u origin feature/quantum-enhancement
 
 | Resource | Link |
 | :--- | :--- |
+| 🚀 Live Application Deployment | [https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/](https://q-med-lab-project-rh6g1y0su-abdulrazak5764s-projects.vercel.app/) |
+| 🎥 Project Walkthrough Video | [https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8](https://youtu.be/Lfiy4g3N-Mo?si=_hdOXJs-LKXFHCs8) |
 | ⚛️ IBM Qiskit Documentation | [https://docs.quantum.ibm.com/](https://docs.quantum.ibm.com/) |
 | 🧪 Qiskit Aer Simulator Guide | [https://docs.quantum.ibm.com/guides/simulator](https://docs.quantum.ibm.com/guides/simulator) |
 | 💻 IBM Quantum Platform | [https://quantum.cloud.ibm.com/](https://quantum.cloud.ibm.com/) |
